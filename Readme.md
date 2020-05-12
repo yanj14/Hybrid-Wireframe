@@ -63,7 +63,7 @@ The staple fragments are given their unique IDs which are the same across differ
 ![schematic](https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm/6_arm_seg1.png)
 
 
-<img src="https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm/6_arm_seg1.png" width="150" height="100" />
+<img src="https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm/6_arm_seg1.png" width="496" height="300" />
 
 
 ### Example 2: 6-arm variant 1 (ssDNA linker)
