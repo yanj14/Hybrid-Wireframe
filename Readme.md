@@ -69,8 +69,8 @@ The staple fragments are given their unique IDs which are the same across differ
 
 To add linkers between a23 and b23 as well as a19 and b19, simply add a few lines in the input linker sequence file.
 
-    a23 b23     CGCCCTTACAT
-    a19	b19     ATGTAAGGGCG
+    a23	b23	CGCCCTTACAT
+    a19	b19	ATGTAAGGGCG     
 
 To add linkers between staple fragments 
 
