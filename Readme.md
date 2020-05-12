@@ -53,18 +53,21 @@ To delete a staple, simply write down the number of the staple to be deleted (on
     3
 
 
-### Basic 6-arm
+### Example 1: basic 6-arm
 Since the two staple fragments are connected by a 'TT' dinucleotide (default) in basic 6-arm structure (as shown below), a linker sequence file is not required.
 
 ![schematic](https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm/6_arm.png)
 
 The staple fragments are given their unique IDs which are the same across different 6-arm variants. The ID. starts with an a (5' fragment) or b (3' fragment) and ends with the staple number. Since the 6-arm structure is periodic, a suffix "_segX" (X: 2-6) is added to the ID of staple fragments in segment 2-6 of the structure.
 
+![schematic](https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm/6_arm_seg1.png)
 
 
 ### Example 2: 6-arm variant 1 (ssDNA linker)
 
-To add linkers between a23 and b23 as well as a19 and b19, simply add a few lines in the input linker sequence file. 
+
+
+To add linkers between a23 and b23 as well as a19 and b19, simply add a few lines in the input linker sequence file.
 
     a23 b23     CGCCCTTACAT
     a19	b19     ATGTAAGGGCG
