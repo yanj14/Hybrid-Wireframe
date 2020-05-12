@@ -36,14 +36,6 @@ The two scripts here first index p8064 and obtain the coordinate of staple fragm
 
 ## Input requirements
 
-### Requirements for linker sequence files
-
-The linker sequence file is a tab-delimited txt file which consists of first three mandatory columns and one optional fourth column. The first three are the 1st staple fragment ID., the 2nd staple fragment ID. and the linker sequence. The fourth column is the staple-linker connection pattern.
-
-If linkers are ssDNA, the fourth column is not needed. However, if linkers are dsDNA, then the 1st staple fragment will be joint with the linker sequence listed in the same line while the second fragment will be joint with the reverse complement of the linker sequence. For dsDNA linker, you also need to specify if the generated staples (5' to 3') start or end with the linkers by adding 'start' or 'end' to the fourth column.
-
-**Please be aware** that a 'TT' dinucleotide will be automatically added between the linker and the staple fragment to provide necessary structural flexibility. All unspecified staple fragment pairs will be joint by a 'TT' dinucleotide.
-
 ### Requirements for text files to delete staples
 
 To delete a staple, simply write down the number of the staple to be deleted (one number per line). For example:
@@ -52,8 +44,16 @@ To delete a staple, simply write down the number of the staple to be deleted (on
     2
     3
 
+### Requirements for linker sequence files
 
-### Example 1: basic 6-arm
+The linker sequence file is a tab-delimited txt file which consists of first three mandatory columns and one optional fourth column. The first three are the 1st staple fragment ID., the 2nd staple fragment ID. and the linker sequence. The fourth column is the staple-linker connection pattern.
+
+If linkers are ssDNA, the fourth column is not needed. However, if linkers are dsDNA, then the 1st staple fragment will be joint with the linker sequence listed in the same line while the second fragment will be joint with the reverse complement of the linker sequence. For dsDNA linker, you also need to specify if the generated staples (5' to 3') start or end with the linkers by adding 'start' or 'end' to the fourth column.
+
+**Please be aware** that a 'TT' dinucleotide will be automatically added between the linker and the staple fragment to provide necessary structural flexibility. All unspecified staple fragment pairs will be joint by a 'TT' dinucleotide.
+
+
+#### Example 1: basic 6-arm
 Since the two staple fragments are connected by a 'TT' dinucleotide (default) in basic 6-arm structure (as shown below), a linker sequence file is not required.
 
 
@@ -65,7 +65,7 @@ The staple fragments are given their unique IDs which are the same across differ
 ![schematic](https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm/6_arm_seg1.png)
 
 
-### Example 2: 6-arm variant 1 (ssDNA linker)
+#### Example 2: 6-arm variant 1 (ssDNA linker)
 
 ![schematic](https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm_V1/6_arm_variant1_seg1.png)
 
@@ -79,7 +79,7 @@ To add a linker between staple fragments in the same position as a23 and b23 in 
     a23_seg2	b23_seg2	ATACCGTAGCA
 
 
-### Example 3: 6-arm variant 3 (dsDNA linker)
+#### Example 3: 6-arm variant 3 (dsDNA linker)
 
 ![schematic](https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm_V3/6_arm_variant3_seg1.png)
 
