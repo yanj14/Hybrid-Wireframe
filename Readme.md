@@ -62,9 +62,6 @@ Since the two staple fragments are connected by a 'TT' dinucleotide (default) in
 
 The staple fragments are given their unique IDs which are the same across different 6-arm variants. The ID. starts with an a (5' fragment) or b (3' fragment) and ends with the staple number. Since the 6-arm structure is periodic, a suffix "_segX" (X: 2-6) is added to the ID of staple fragments in segment 2-6 of the structure.
 
-<img src="https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm/6_arm_seg1.png" width="720" height="240" />
-
-
 ![schematic](https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm/6_arm_seg1.png)
 
 
