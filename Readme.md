@@ -64,6 +64,7 @@ The staple fragments are given their unique IDs which are the same across differ
 
 <img src="https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm/6_arm_seg1.png" width="720" height="240" />
 
+
 ![schematic](https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm/6_arm_seg1.png)
 
 
