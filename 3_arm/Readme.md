@@ -66,7 +66,7 @@ Windows (cmd)
 
     python 3arm_staples.py --outdir .\ --linker .\3arm_linker.txt 
 
-
+<img src="https://github.com/yanj14/Hybrid-Wireframe/blob/master/3_arm/3_arm.png" width="720" height="650" />
 
 
 ### Demo2: Basic 4-arm wireframe origami
@@ -79,3 +79,5 @@ Linux or MacOS or Windows (powershell/cygWin)
 Windows (cmd)
 
     python .\3arm_staples.py --outdir .\ --deletion .\ToDel.txt --outname 4arm_staple_sequence
+
+<img src="https://github.com/yanj14/Hybrid-Wireframe/blob/master/3_arm/4_arm.png" width="720" height="650" />
