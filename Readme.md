@@ -19,7 +19,7 @@ The two scripts here first index p8064 and obtain the coordinate of staple fragm
 
 3. Run the scripts
 
-        python3 6arm_staples.py --outdir <output path> --linker <linker sequence path> --dsOption <1/0> --deletion <staples to delete file path>
+        python 6arm_staples.py --outdir <output path> --linker <linker sequence path> --dsOption <1/0> --deletion <staples to delete file path>
 
 ---
 
@@ -98,18 +98,18 @@ The output file is a tab-delimited .txt file consisting of two columns. If the l
 ## Demo
 1. Demo1 6-arm wireframe origami
    
-        python3 6arm_staples.py --outdir ./Demo_6arm/
+        python 6arm_staples.py --outdir ./Demo_6arm/
 
 2. Demo2 6-arm wireframe origami variant 1
    
-        python3 6arm_staples.py --outdir ./Demo_6arm_V1/ --linker ./Demo_6arm_V1/6arm_V1_linker.txt/ --deletion ./Demo_6arm_V1/ToDel
+        python 6arm_staples.py --outdir ./Demo_6arm_V1/ --linker ./Demo_6arm_V1/6arm_V1_linker.txt/ --deletion ./Demo_6arm_V1/ToDel
 
 3. Demo3 6-arm wireframe origami variant 3
    
-        python3 6arm_staples.py --outdir ./Demo_6arm_V3/ --linker ./Demo_6arm_V3/6arm_V3_linker.txt/ --dsOption 1 --deletion ./Demo_6arm_V3/ToDel
+        python 6arm_staples.py --outdir ./Demo_6arm_V3/ --linker ./Demo_6arm_V3/6arm_V3_linker.txt/ --dsOption 1 --deletion ./Demo_6arm_V3/ToDel
 
 4. Demo4 6-arm wireframe origami variant 3_32nt
    
-        python3 6arm_staples.py --outdir ./Demo_6arm_V3_32nt/ --linker ./Demo_6arm_V3_32nt/6arm_V3_32nt_linker.txt/  -dsOption 1 --deletion ./Demo_6arm_V3_32nt/ToDel
+        python 6arm_staples.py --outdir ./Demo_6arm_V3_32nt/ --linker ./Demo_6arm_V3_32nt/6arm_V3_32nt_linker.txt/  -dsOption 1 --deletion ./Demo_6arm_V3_32nt/ToDel
 
 5. Demo5 3-arm wireframe origami
