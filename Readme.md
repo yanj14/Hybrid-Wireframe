@@ -111,5 +111,3 @@ The output file is a tab-delimited .txt file consisting of two columns. If the l
 4. Demo4 6-arm wireframe origami variant 3_32nt
    
         python 6arm_staples.py --outdir ./Demo_6arm_V3_32nt/ --linker ./Demo_6arm_V3_32nt/6arm_V3_32nt_linker.txt/ --dsOption 1 --deletion ./Demo_6arm_V3_32nt/ToDel
-
-5. Demo5 3-arm wireframe origami
