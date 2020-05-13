@@ -1,10 +1,6 @@
 # **Hybrid wireframe origami**
 ## About
-Here we deposit two scripts to generate hybrid wireframe origami. We designed the basic 3-arm, 4-arm and 6-arm structures. **M13 p8064 ssDNA** was the scaffold and **staples (short ssDNA oligos)** were used to establish the shapes and patterns.
-
-Each staple contains several fragments (>=2) and two of them directly bind to the scaffold. To generate variants of those basic structures, the two fragments that bind directly to p8064 were not changed and between them, different linkers were inserted such as short stretch of ssDNA, dsDNA.
-
-The two scripts here first index p8064 and obtain the coordinate of staple fragments that directly bind p8064. Then the linker sequence file that specify the connection patterns of linkers with staples is loaded and all staple sequences are ouput in a .txt file.
+This script generates the 6-arm wireframe structure and its variants
 
 ---
 
