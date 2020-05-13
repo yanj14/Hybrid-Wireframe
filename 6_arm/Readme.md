@@ -15,7 +15,7 @@ The two scripts here first index p8064 and obtain the coordinate of staple fragm
 
 2. In Powershell (Windows) or Terminal (Linux, MacOS), change directory to the downloaded script folder. For example:
 
-        cd /Hybrid-Wireframe
+        cd /Hybrid-Wireframe/6_arm/
 
 3. Run the scripts
 
@@ -57,17 +57,17 @@ If linkers are ssDNA, the fourth column is not needed. However, if linkers are d
 Since the two staple fragments are connected by a 'TT' dinucleotide (default) in basic 6-arm structure (as shown below), a linker sequence file is not required.
 
 
-<img src="https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm/6_arm.png" width="720" height="650" />
+<img src="https://github.com/yanj14/Hybrid-Wireframe/blob/master/6_arm/Demo_6arm/6_arm.png" width="720" height="650" />
 
 
 The staple fragments are given their unique IDs which are the same across different 6-arm variants. The ID. starts with an a (5' fragment) or b (3' fragment) and ends with the staple number. Since the 6-arm structure is periodic, a suffix "_segX" (X: 2-6) is added to the ID of staple fragments in segment 2-6 of the structure.
 
-![schematic](https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm/6_arm_seg1.png)
+![schematic](https://github.com/yanj14/Hybrid-Wireframe/blob/master/6_arm/Demo_6arm/6_arm_seg1.png)
 
 
 #### Example 2: 6-arm variant 1 (ssDNA linker)
 
-![schematic](https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm_V1/6_arm_variant1_seg1.png )
+![schematic](https://github.com/yanj14/Hybrid-Wireframe/blob/master/6_arm/Demo_6arm_V1/6_arm_variant1_seg1.png)
 
 To add linkers between a23 and b23 as well as a19 and b19, simply add a few lines in the input linker sequence file.
 
@@ -81,7 +81,7 @@ To add a linker between staple fragments in the same position as a23 and b23 in 
 
 #### Example 3: 6-arm variant 3 (dsDNA linker)
 
-![schematic](https://github.com/yanj14/Hybrid-Wireframe/blob/master/Demo_6arm_V3/6_arm_variant3_seg1.png)
+![schematic](https://github.com/yanj14/Hybrid-Wireframe/blob/master/6_arm/Demo_6arm_V3/6_arm_variant3_seg1.png)
 
 To add dsDNA linkers, a fourth column is mandatory. For example the first line below indicates that the ssDNA sequence and its reverse complement will be added to the 5' end of a23 and b23 respectively with a 'TT' spacer in between. (agcttcccacatgtaagggcg + 'TT' + a23 / )
 
