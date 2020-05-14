@@ -28,6 +28,8 @@ This script generates the 6-arm wireframe structure and its variants
 
 `--deletion <staples to delete file path>` Path to the text file specifying staples to be removed.
 
+`--name <the file name (no format extension)>` The name of the output file . Default is '6arm_staples'.
+
 ---
 
 ## Input requirements

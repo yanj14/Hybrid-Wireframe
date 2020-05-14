@@ -26,9 +26,9 @@ This script generates the 3-arm wireframe structure and its variants
 
 `--linker <linker sequence path>`  Path to the linker sequence file. Default is empty string which tells the script to use the defult 'TT' linker to connect two staple fragments.
 
-`--deletion <staples to delete file path>` Path to the text file specifying staples to be removed. Default is to keep all staples
+`--deletion <staples to delete file path>` Path to the text file specifying staples to be removed. Default is to keep all staples.
 
-`--name <the file name (no format extension)>` The name of the output file 
+`--name <the file name (no format extension)>` The name of the output file. Default is 'Staple_sequences'. 
 
 ---
 
