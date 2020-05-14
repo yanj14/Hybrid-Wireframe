@@ -86,7 +86,7 @@ def StapleCoordinate():
 def StapleGenerator(OligoDict, StapleDict, outdir=os.getcwd(), linker='', delStaple='', outname='Staple_sequences'):
     separator=path_separator()  # Get system dependent path separator
     staple_seq=open(outdir+separator+outname+".txt", "w") 
-    counter_dict=copy.deepcopy(OligoDict) # To record all staples that are not given staples
+    counter_dict=copy.deepcopy(OligoDict) # To record all staples that are not given linkers
 
     if linker == '':
         print ("No input file specified!")
@@ -110,7 +110,7 @@ def StapleGenerator(OligoDict, StapleDict, outdir=os.getcwd(), linker='', delSta
                 del counter_dict[linker_number]         
         Input_dsRegion.close()
 
-    # To delete staples as indicated by the 
+    # To delete staples as indicated by the --deletion option
     if  delStaple!='':
         del_staple_file=open(delStaple, 'r')
         del_staple=del_staple_file.readlines()
